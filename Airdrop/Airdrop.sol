@@ -5,6 +5,7 @@
 // Caution: This code is intended for educational purposes only
 // and should not be used in production environments.
 
+// SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.9;
 
 import "@openzeppelin/contracts/utils/cryptography/MerkleProof.sol";

@@ -5,7 +5,7 @@
 // Caution: This code is intended for educational purposes only
 // and should not be used in production environments.
 
-// SPDX-License-Identifier: MIT
+// SPDX-License-Identifier: UNLICENSED
 pragma solidity >0.4.0 <= 0.9.0;
 
 interface IBEP20 {

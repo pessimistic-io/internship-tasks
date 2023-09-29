@@ -5,6 +5,7 @@
 // Caution: This code is intended for educational purposes only
 // and should not be used in production environments.
 
+// SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.2;
 
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
