@@ -2,7 +2,7 @@ This set of tasks is part of the Pessimistic Junior Solidity smart contracts sec
 
 Solutions need to be posted to [gist](https://gist.github.com/) and sent to us as **individuall** links for each task!
 
-The Russian verison of the description see [below](#Vesting1).
+The Russian version of the description can be found [below](#Vesting1).
 
 ## Vesting
 Write a small description of how the code works.
@@ -11,7 +11,7 @@ You also need to write out the vulnerabilities, fix them in the code and send a 
 Note: you don't need to rewrite the whole code, it should be small edits.
 
 ## Vulnerable BEP20
-We need to compare the implementation of **BEP20** token with [standard](https://github.com/bnb-chain/BEPs/blob/master/BEPs/BEP20.md) and write out the differences.
+You need to compare the implementation of **BEP20** token with [standard](https://github.com/bnb-chain/BEPs/blob/master/BEPs/BEP20.md) and write out the differences.
 
 Example: If the implementation of the `approve` function does not meet the formal requirements of the standard, write this inconsistency as an issue. 
 If it complies, write nothing.
