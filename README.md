@@ -17,7 +17,7 @@ Example: If the implementation of the `approve` function does not meet the forma
 If it complies, write nothing.
 
 ## Libraries
-Imagine that each contract is deployed separately. You need to understand the code and answer the questions:
+Imagine that each contract is deployed separately. You need to understand the code and answer the following questions:
 1. How is the `_placementRegistry` from the **ManagerStorage** contract initialized? (Write a mini-contract with 3 variants of initialization. For instance, you can design it as 3 functions).
 2. Are the items at line 73 in the **Placements** contract added correctly? Why? (Give a detailed explanation).
 3. What is the purpose of `using Items for ItemtId` in **Items** library? (Give an extended explanation and specify the line in the code).
@@ -29,7 +29,7 @@ You need to understand the code, write out issues and send a contract with fixes
 Note: you don't need to rewrite the whole code, it should be small edits.
 
 ## NFT
-You need to figure out how to run [slither](https://github.com/crytic/slither) on this contract, and check the occurrences of all severity levels except `informational`. Write out all the ones you confirm(with your brief description/comment).
+You need to figure out how to run [slither](https://github.com/crytic/slither) on this contract, and check the occurrences of all severity levels except `informational`. Write out all the ones you confirm (with your brief description/comment).
 
 Important: occurrences for **OpenZeppelin** contracts do not need to be validated!
 
@@ -40,7 +40,7 @@ slither . --solc-disable-warnings --exclude-informational
 
 ## Foundry task
 
-You are given a `foundry` project. Your task is to install it, run tests on fork **arbitrum** and explain why exactly they fail.
+You are given a `foundry` project. Your task is to install it, run tests on an **arbitrum** fork and explain why exactly they fail.
 
 Please, send the following as a solution:
 
@@ -64,7 +64,7 @@ forge test -vv --fork-url <your-arbitrum-rpc-url>
 It is a complex chain of contract calls. You need to understand the code and answer the questions:
 
 0. Which contract is the entry point?
-1. Where in the code is the `onERC721Received` function from Vault called? You need to write out the call chain
+1. Where in the code is the `onERC721Received` function from Vault called? You need to write out the call chain.
 2. What are `address(this)` and `msg.sender` equal to when `Controller.transferAssetToVault` is called?
 3. Will `require` of `modifier whenAssetDepositAllowed` (**Vault** contract) be reverted or not? Why?
 4. Will `modifier onlyDelegatecall` from **Controller** contract correctly work out? Why?
