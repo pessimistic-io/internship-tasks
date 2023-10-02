@@ -1,4 +1,4 @@
-This set of tasks is part of the Pessimistic Junior Solidity smart contracts security educational initiative. Learn more here: **% Link to the Post %**
+This set of tasks is part of the Pessimistic Junior Solidity smart contracts security educational initiative. Learn more here: https://medium.com/pessimistic-security/pessimistic-launches-junior-program-de0fcc4f4097
 
 Solutions need to be posted to [gist](https://gist.github.com/) and sent to us as **individuall** links for each task!
 
