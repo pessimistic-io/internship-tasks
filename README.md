@@ -2,7 +2,7 @@ This set of tasks is part of the Pessimistic Junior Solidity smart contracts sec
 
 Solutions need to be posted to [gist](https://gist.github.com/) and sent to us as **individuall** links for each task! Send your solutions to [junior@pessimistic.io](junior@pessimistic.io), and we will publish and link to the best ones! In addition, we will invite you to the subsequent Pessimistic Junior!
 
-The version in Russian language can be found [below](#Vesting1).
+The version in Russian language can be found [here](https://github.com/pessimistic-io/internship-tasks/blob/main/Tasks%20Description%20RUS.md).
 
 ## Vesting
 Write a small description of how the code works.
