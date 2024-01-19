@@ -5,7 +5,6 @@
 // Caution: This code is intended for educational purposes only
 // and should not be used in production environments.
 
-// SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
 import '@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol';
