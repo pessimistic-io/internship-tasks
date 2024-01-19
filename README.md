@@ -89,6 +89,16 @@ You need to compare the implementation of **ERC20** token with [standard](https:
 Example: If the implementation of `approve` function does not meet the formal requirements of the standard, write out this inconsistency as an issue. 
 If it complies, write out nothing.
 
+## KYC, Distribution, Treasury
+
+You need to understand the code and write out all possible issues in the following format: Contract.function L25 - description.
+
+KYC - The recommended version of OpenZeppelin 4.9.
+
+## Signature
+
+What minimal checks/operations should be added to the code to avoid signature malleability for ecrecover(). It is necessary to handle edge cases so that possible reverts are as rare as possible.
+
 <br/><br/>
 > 🔐 Pessimistic delivers trusted security audits since 2017.
 > 
